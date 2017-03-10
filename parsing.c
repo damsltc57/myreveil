@@ -5,7 +5,7 @@
 ** Login   <damien.laurent@epitech.eu@epitech.eu>
 **
 ** Started on  Thu Mar  9 23:00:09 2017 Damien Laurent
-** Last update Fri Mar 10 12:09:01 2017 Damien Laurent
+** Last update Fri Mar 10 16:08:12 2017 Damien Laurent
 */
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -23,8 +23,8 @@ void		read_input(t_rev *rev, t_allr **allr)
   int		i;
   char		**tab;
   int		j;
-  int		pos;
   int		k;
+
   tab = malloc(sizeof(char*) * 10);
   i = 0;
   tmp = malloc(sizeof(char) * 10);

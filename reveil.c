@@ -5,7 +5,7 @@
 ** Login   <damien.laurent@epitech.eu@epitech.eu>
 **
 ** Started on  Thu Mar  9 22:42:32 2017 Damien Laurent
-** Last update Fri Mar 10 14:01:24 2017 Damien Laurent
+** Last update Fri Mar 10 16:08:00 2017 Damien Laurent
 */
 #include <time.h>
 #include <stdio.h>
@@ -66,7 +66,7 @@ int		get_calcul(t_calcul *calcul)
   return (1);
 }
 
-void		dringgg(t_rev *rev, t_calcul *calcul, t_allr **allr)
+void		dringgg(t_calcul *calcul, t_allr **allr)
 {
   time_t	current;
   struct tm	instant;
@@ -120,6 +120,6 @@ int		main(void)
   srand(time(NULL));
   read_input(&rev, &allr);
   my_show_list(&allr);
-  dringgg(&rev, &calcul, &allr);
+  dringgg(&calcul, &allr);
   return (0);
 }
