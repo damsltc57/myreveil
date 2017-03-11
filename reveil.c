@@ -5,7 +5,7 @@
 ** Login   <damien.laurent@epitech.eu@epitech.eu>
 **
 ** Started on  Thu Mar  9 22:42:32 2017 Damien Laurent
-** Last update Sat Mar 11 01:43:25 2017 Damien Laurent
+** Last update Sat Mar 11 19:10:56 2017 Damien Laurent
 */
 #include <time.h>
 #include <stdio.h>
@@ -90,7 +90,7 @@ void		dringgg(t_calcul *calcul, t_allr **allr)
       if (check_in_link(allr, instant) == 0)
 	{
 	  name = init_calcul(calcul);
-	  music = sfMusic_createFromFile("res/daft_punk.ogg");
+	  music = sfMusic_createFromFile("res.gitignore/daft_punk.ogg");
 	  sfMusic_play(music);
 	  sfMusic_setVolume(music, vol);
 	  revok = 1;
