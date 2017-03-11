@@ -5,7 +5,7 @@
 ** Login   <damien.laurent@epitech.eu@epitech.eu>
 **
 ** Started on  Thu Mar  9 22:42:32 2017 Damien Laurent
-** Last update Fri Mar 10 16:08:00 2017 Damien Laurent
+** Last update Sat Mar 11 01:43:25 2017 Damien Laurent
 */
 #include <time.h>
 #include <stdio.h>
@@ -78,7 +78,7 @@ void		dringgg(t_calcul *calcul, t_allr **allr)
   vol = 0;
   revok = 0;
   music = NULL;
-  while (42)
+  while (123)
     {
       if (revok == 0)
 	usleep(1000000);

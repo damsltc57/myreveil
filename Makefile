@@ -5,7 +5,7 @@
 ## Login   <damien.laurent@epitech.eu@epitech.eu>
 ##
 ## Started on  Mon Feb 13 18:13:54 2017 Damien Laurent
-## Last update Fri Mar 10 16:06:37 2017 Damien Laurent
+## Last update Fri Mar 10 18:15:20 2017 Damien Laurent
 ##
 
 SRCS	=	reveil.c		\
@@ -28,11 +28,13 @@ OBJ2		=		$(SRC2:.c=.o)
 
 NAME		=		reveil
 
-NAME1		=		set
+NAME1		=		set_result
 
 NAME2		=		add
 
 CC		=		gcc -g -O3 -Wextra -Wall -lc_graph_prog
+
+CC1 	=		gcc -g -O3 -Wextra -Wall
 
 all: $(NAME) $(NAME1) $(NAME2)
 
@@ -40,7 +42,7 @@ $(NAME): $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 
 $(NAME1): $(OBJ1)
-	$(CC) $(OBJ1) -o $(NAME1)
+	$(CC1) $(OBJ1) -o $(NAME1)
 
 $(NAME2): $(OBJ2)
 	$(CC) $(OBJ2) -o $(NAME2)

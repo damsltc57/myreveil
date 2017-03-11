@@ -1,0 +1,15 @@
+Myreveil by damien laurent v1.0
+
+Usage: make or make re
+
+Alarm: --set new alarm: ./add [hour:min]
+       --mange all alarms: nano input
+       --see all alarms: cat input
+
+start myreveil: ./myreveil
+start myreveil background ./myreveil &
+
+When the alarm is ringing a new file will be generated for ex: 10+10,
+to stop it juste type ./set_result [result]
+   	   	      ex: ./set_result [20]
+and if the result is good the song will be stopped and, the file generated will be destroyed
