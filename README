@@ -13,3 +13,4 @@ When the alarm is ringing a new file will be generated for ex: 10+10,
 to stop it juste type ./set_result [result]
    	   	      ex: ./set_result [20]
 and if the result is good the song will be stopped and, the file generated will be destroyed
+
