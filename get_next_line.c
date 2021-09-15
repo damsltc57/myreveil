@@ -34,6 +34,7 @@ char		*my_strcat(char* bufout, char *buffer)
   return (tmp);
 }
 
+
 char		*get_next_line(int fd)
 {
   char		*buffer;
